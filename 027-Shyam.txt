@@ -1,0 +1,213 @@
+#Shyam is going to do ababa tests on the bams of the species. I need to give him the paths of the bams, all mapped vs the bgi lion genome
+
+
+#Bams by stages
+####Pool 6
+all: Lemaitre. SE. Already all mapped
+####BGI batch1
+museum lions: /home/antique/pr_99009/people/zepeda/MuseumLions_17.10.14
+Smil and Homo: /home/antique/pr_99009/people/zepeda/sabertooth_DATA
+cave lion: /home/antique/pr_99009/people/zepeda/caveLion_DATA
+####BGI batch2
+museum lions:  /home/antique/pr_99009/people/zepeda/MuseumLions_data9BGI
+Smil and Homo: /home/antique/pr_99009/people/zepeda/AncientFelines_data9BGI
+cave lion: /home/antique/pr_99009/people/zepeda/AncientFelines_data9BGI
+
+
+###Final bams to give to Shyam:
+
+cd /home/antique/pr_99009/people/zepeda/caveLion_DATA/CaveLionMerged/Exome_2/Exome_BU17_4.P6BGId1BGId2.realigned.sort.bam
+cd /home/antique/pr_99009/people/zepeda/caveLion_DATA/CaveLionMerged/WG_2/WG_BU23_3.P6BGId1BGId2.realigned.sort.bam
+cd /home/antique/pr_99009/people/zepeda/sabertooth_DATA/HomoMerged/WG_2/WG_BU20_2.P6BGId1BGId2.realigned.sort.bam
+cd /home/antique/pr_99009/people/zepeda/sabertooth_DATA/HomoMerged/Exome/*.P6BGId1BGId2.realigned.sort.bam
+cd /home/antique/pr_99009/people/zepeda/sabertooth_DATA/SmilMerged/Exome_2/Exome_BU19_5.P6BGId1BGId2.realigned.sort.bam
+cd /home/antique/pr_99009/people/zepeda/sabertooth_DATA/SmilMerged/WG_2/WG_BU23_1.P6BGId1BGId2.realigned.sort.bam
+
+
+
+############################################################################# But he also wants the paths of the raw data to map to the TIGER genome insteadof to the lion genome...
+
+############################# Old pool6. THIS ONES ARE SINGLE END
+
+### GABO  /home/lisandraz/data/Ross_16.04.13/data6/Sample_TOG_PVPV_CAP1_22/Sample_TOG_PVPV_CAP1_22.prinseq.fastq  
+### SUDAN  /home/lisandraz/data/Ross_16.04.13/data6/Sample_TOG_PVPV_CAP1_8/*.prinseq.fastq
+### SENE  /home/lisandraz/data/Ross_16.04.13/data6/Sample_TOG_PVPV_CAP1_23/*.prinseq.fastq
+### IRAN /home/lisandraz/data/Ross_16.04.13/data6/Sample_TOG_PVPV_CAP1_7/*.prinseq.fastq
+### BARBARY_BGI3  /home/lisandraz/data/Ross_16.04.13/data6/Sample_TOG_PVPV_CAP1_5/*.prinseq.fastq
+### BARBARY_BGI3_NHM  /home/lisandraz/data/Ross_16.04.13/data6/Sample_TOG_PVPV_CAP1_1/*.prinseq.fastq
+### BARBARY_BGI4  /home/lisandraz/data/Ross_16.04.13/data6/Sample_TOG_PVPV_CAP1_6/*.prinseq.fastq
+### RSA /home/lisandraz/data/Ross_16.04.13/data6/Sample_TOG_PVPV_CAP1_9/*.prinseq.fastq
+### CAPE /home/lisandraz/data/Ross_16.04.13/data6/Sample_TOG_PVPV_CAP1_10/*.prinseq.fastq
+### SMIL /home/lisandraz/data/Ross_16.04.13/data6/Sample_TOG_PVPV_CAP1_3/*.prinseq.fastq 
+         /home/lisandraz/data/Ross_16.04.13/data6/Sample_TOG_PVPV_CAP1_25/*.prinseq.fastq
+### SPEL /home/lisandraz/data/Ross_16.04.13/data6/Sample_TOG_PVPV_CAP1_4_CAP1_24/*.prinseq.fastq  
+         /home/lisandraz/data/Ross_16.04.13/data6/Sample_TOG_PVPV_CAP1_2/*.prinseq.fastq
+         /home/lisandraz/data/Ross_16.04.13/data6/Sample_TOG_PVPV_CAP1_26/*.prinseq.fastq
+
+
+########################### First BGI batch
+
+/home/lisandraz/data/Ross_16.04.13/data7_BGI/
+
+	140318_I1141_FCC3VKBACXX_L6_BGI1
+		#### GABO   BGI1_Index13   
+		#### SMIL WG  BGI1_Index2
+		#### SUDAN  BGI1_Index6
+
+	140322_I120_FCC3VLGACXX_L1_BGI2
+		#### SENE  BGI2_Index15
+		#### IRAN   BGI2_Index40
+		#### SPEL  BGI2_Index4
+
+	140322_I120_FCC3VLGACXX_L2_BGI3
+		#### HOMO   BGI3_Index27
+		#### BARBARY  BGI3_Index10
+		#### BARBARY NHM  BGI3_Index1
+
+	140322_I120_FCC3VLGACXX_L3_BGI4
+		#### RSA  BGI4_Index19
+		#### CAPE  BGI4_Index48
+		#### BARBARY   BGI4_Index35
+
+	140322_I120_FCC3VLGACXX_L4_BGI5
+		#### HOMO BGI5_Index27
+		#### SPEL  BGI5_Index17
+		#### SMIL  BGI5_Index28
+
+	140327_I112_FCC34JHACXX_L8_BGI7
+		#### HOMO BGI7_Index27
+		#### SMIL BGI7_Index2
+		#### SPEL BGI7_Index4
+		#### SPEL BGI7_Index17
+
+
+
+################################ BGI resequenced lions... it's in the DTU only...
+/home/antique/pr_99009/people/zepeda/BGIreseqedLions_24.10.14
+	#Library name	Geographic locations
+	LIOrjyRBIDIAAPE	India
+	LIOrjyRBKDIAAPE	Tanzania
+	LIOrjyRBMDIAAPE	Tanzania
+	LIOrjyRBQDIAAPE	Botswana
+	LIOrjyRBSDIAAPE	India
+	LIOrjyRBTDIAAPE	Botswana
+
+
+#####################################Tiger reads... these might not be aaaaall of them.... I honestly don't remember... I downloaded them from NCBI
+###White bengal tiger  ##phred 33
+/home/lisandraz/data/PhD_METHODS/numts_09.02.14/3-RealDatasets/Phylogeny/WhiteBengalTiger/WhiteBengalTiger_R*.fastq.gz
+
+###Siberian tiger ##phred 64
+/home/lisandraz/data/PhD_METHODS/numts_09.02.14/3-RealDatasets/Phylogeny/SiberianTiger/SiberianTiger_R*.fastq.gz
+
+
+###############################BGI batch2
+## Got more data from pools BGI1,2,5,7. It contains both ancient lions and museum lions. they come form the same pool, so you can cat them and map them... I don't know if you need to do rmddup or what, so you need to be carefull which dataset comes fom which pool
+#All are phred 64
+
+####### GABON #BGI1(exome index13): 
+/home/lisandraz/data/Ross_16.04.13/data9_BGI/BGI1/1/BGI1_1_Index13_R1.fastq
+/home/lisandraz/data/Ross_16.04.13/data9_BGI/BGI1/2/BGI1_2_Index13_R1.fastq
+####### SUDAN  #BGI1(exome Index6)
+/home/lisandraz/data/Ross_16.04.13/data9_BGI/BGI1/1/BGI1_1_Index6_R1.fastq
+/home/lisandraz/data/Ross_16.04.13/data9_BGI/BGI1/2/BGI1_2_Index6_R1.fastq
+####### SENE  #BGI2(exome index15)
+/home/lisandraz/data/Ross_16.04.13/data9_BGI/BGI2/1/BGI2_1_Index15_R1.fastq 
+/home/lisandraz/data/Ross_16.04.13/data9_BGI/BGI2/2/BGI2_2_Index15_R1.fastq
+####### IRAN  #BGI2(exome index40)
+/home/lisandraz/data/Ross_16.04.13/data9_BGI/BGI2/1/BGI2_1_Index40_R1.fastq
+/home/lisandraz/data/Ross_16.04.13/data9_BGI/BGI2/2/BGI2_2_Index40_R1.fastq
+######## SMIL (BGI1, BGI7 Index2) WGE
+/home/lisandraz/data/Ross_16.04.13/data9_BGI/BGI1/1/BGI1_1_Index2_R1.fastq
+/home/lisandraz/data/Ross_16.04.13/data9_BGI/BGI1/2/BGI1_2_Index2_R1.fastq
+
+/home/lisandraz/data/Ross_16.04.13/data9_BGI/BGI7/1/BGI7_1_Index2_R1.fastq 
+/home/lisandraz/data/Ross_16.04.13/data9_BGI/BGI7/2/BGI7_2_Index2_R1.fastq
+######## SMIL(BGI5 index28) exome
+/home/lisandraz/data/Ross_16.04.13/data9_BGI/BGI5/1/BGI5_1_Index28_R1.fastq
+/home/lisandraz/data/Ross_16.04.13/data9_BGI/BGI5/2/BGI5_2_Index28_R1.fastq
+######## HOMO(BGI5, BGI7 index27) WGE 
+/home/lisandraz/data/Ross_16.04.13/data9_BGI/BGI5/1/BGI5_1_Index27_R1.fastq
+/home/lisandraz/data/Ross_16.04.13/data9_BGI/BGI5/2/BGI5_2_Index27_R1.fastq
+
+/home/lisandraz/data/Ross_16.04.13/data9_BGI/BGI7/1/BGI7_1_Index27_R1.fastq
+/home/lisandraz/data/Ross_16.04.13/data9_BGI/BGI7/2/BGI7_2_Index27_R1.fastq
+######## SPEL(BGI2, BGI7 index4) WGE (SPEL is CaveLion)
+/home/lisandraz/data/Ross_16.04.13/data9_BGI/BGI2/1/BGI2_1_Index4_R1.fastq
+/home/lisandraz/data/Ross_16.04.13/data9_BGI/BGI2/2/BGI2_2_Index4_R1.fastq
+
+/home/lisandraz/data/Ross_16.04.13/data9_BGI/BGI7/1/BGI7_1_Index4_R1.fastq
+/home/lisandraz/data/Ross_16.04.13/data9_BGI/BGI7/2/BGI7_2_Index4_R1.fastq
+######## SPEL(BGI5, BGI7 index17) exome
+/home/lisandraz/data/Ross_16.04.13/data9_BGI/BGI5/1/BGI5_1_Index17_R1.fastq 
+/home/lisandraz/data/Ross_16.04.13/data9_BGI/BGI5/2/BGI5_2_Index17_R1.fastq
+
+/home/lisandraz/data/Ross_16.04.13/data9_BGI/BGI7/1/BGI7_1_Index17_R1.fastq
+/home/lisandraz/data/Ross_16.04.13/data9_BGI/BGI7/2/BGI7_2_Index17_R1.fastq
+
+
+########################## Hyena
+## We got reads from hyena from Guojie. We will use them for making a tree with our saber tooth cats and cave lion. These hyena reads are from two individuals. 
+# CROaot is oneindividual, and SZAIPI is another one.
+/home/lisandraz/data/SabreTooth_21.11.13/Hyena   ## Some are there.. but not all.. they are in the DTU...
+
+/home/antique/pr_99009/people/zepeda/Hyena/ftp.dna.ku.dk/from_BGISZ/20150124
+	CROaotDAXDLAAPEI-31
+	CROaotDAXDLBAPEI-33
+	CROaotDAXDWAAPEI-22
+	CROaotDAXDWABPEI-30
+	CROaotDAYDTAAPEI-14  
+	CROaotDAYDTBAPEI-17
+	CROaotDAYDUAAPEI-106
+	CROaotDAYDUBAPEI-113
+
+	SZABPI000583-1
+	SZABPI000592-1
+	SZAIPI000582-2
+	SZAIPI000591-2
+	SZAMPI014705-75
+
+
+
+
+
+##################################### BAMS
+#mapped vs lion
+/home/lisandraz/data/Ross_16.04.13/ExomePhylogeny_02.11.14
+and
+/home/lisandraz/data/Ross_16.04.13/ExomePhylogeny_02.11.14/BGImoreData
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
